@@ -1,2 +1,3 @@
-#Simple javascript quiz application
-#With HTML, SASS & JAVASCRIPT
+##Simple javascript quiz application
+
+##With HTML, SASS & JAVASCRIPT
