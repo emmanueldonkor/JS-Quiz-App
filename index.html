@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!--MINIFIED CSS-->
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+      <div class="header">
+                <h1>Start Quiz</h1>
+            </div>
+        <div class="quiz-wrapper">
+            <div id="questionBox" class="question">
+                Sample Question
+            </div>
+            <div class="options">
+                <ul id="ul">
+                    <li id="opt1" onclick="button(this)"></li>
+                    <li id="opt2" onclick="button(this)"></li>
+                    <li id="opt3" onclick="button(this)"></li>
+                    <li id="opt4" onclick="button(this)"></li>
+                </ul>
+            </div>
+            <div class="score">
+                <div class="next">
+                    <button id="btnNext" type="button" onclick="next()">Next</button>
+                </div>
+                 <div class="restart">
+                    <button id="btnRestart" type="button" onclick="restart()">Restart</button>
+                </div>
+                <div class="score-card">
+                SCORE: <span id="scoreCard">0</span>
+            </div>
+            </div>         
+        </div>
+ <script src="./main.js"></script>       
+</body>
+</html>
